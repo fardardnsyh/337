@@ -1,0 +1,37 @@
+.container{
+    padding: 60px 50px;
+    padding-bottom: 90px;
+    display: block;
+    height: fit-content;
+}
+
+/* mobile */
+@media (min-width: 320px) {
+    .container{
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 0;
+    }
+}
+
+/* tablet */
+@media (min-width: 640px) {
+    .container{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+    .container{
+        padding: 60px 50px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+    .container{
+        padding: 60px 50px;
+    }
+}
